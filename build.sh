@@ -18,4 +18,7 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
+docker tag panzhc/dalai:${DALAI_VERSION} panzhc/dalai
+docker push panzhc/dalai
+
 echo Done.
