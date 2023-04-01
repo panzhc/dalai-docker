@@ -1,2 +1,3 @@
 # dalai-docker
-Dockerfile for dalai
+
+Dockerfile for [dalai](https://github.com/cocktailpeanut/dalai)
